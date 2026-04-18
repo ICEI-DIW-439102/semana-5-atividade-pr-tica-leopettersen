@@ -2,7 +2,7 @@ const noticias = [
     {
     tag: "Transferências",
     cat: "transferencias",
-    emoji: "✍️",
+    imagem: "images/arroyo.png",
     titulo: "Cruzeiro anuncia a contratação de Keny Arroyo",
     resumo:"O Cruzeiro anunciou a contratação do atacante equatoriano Keny Arroyo, na manhã desta terça-feira. O jogador chega em definitivo no time celeste, assinando contrato até o fim de 2029 com o clube. Ele foi registrado pela Raposa no Boletim Informativo Diário (BID).",
     fonte: "Ge",
@@ -12,7 +12,7 @@ const noticias = [
     {
     tag: "Transferências",
     cat: "transferencias",
-    emoji: "✍️",
+    imagem: "images/lautaro.png",
     titulo: "Santos anuncia contratação do atacante Lautaro Díaz",
     resumo:"O Santos anunciou nesta terça-feira a contratação do atacante Lautaro Díaz. O argentino de 27 anos chega por empréstimo, junto ao Cruzeiro, até 31 de julho de 2026, e teve o nome publicado no BID (Boletim Informativo Diário) da CBF (Confederação Brasileira de Futebol).",
     fonte: "Ge",
@@ -22,7 +22,7 @@ const noticias = [
     {
     tag: "Transferências",
     cat: "transferencias",
-    emoji: "✍️",
+    imagem: "images/wesley.png",
     titulo: "Inter comunica venda de Wesley e fecha janela com quase um time de saídas",
     resumo:
       "O Inter comunicou, na manhã quarta-feira, a ida em definitivo do atacante Wesley para o Al-Rayyan, do Catar. O jogador sai do Colorado após quase duas temporadas e é o 10º atleta a deixar o Beira-Rio desde o início da janela. Por outro lado, só três jogadores foram contratados.",
@@ -33,7 +33,7 @@ const noticias = [
       {
     tag: "Transferências",
     cat: "transferencias",
-    emoji: "✍️",
+    imagem: "images/willian.png",
     titulo: "Grêmio anuncia contratação de Willian",
     resumo:
       "O Grêmio oficializou nesta sexta-feira a contratação do meia Willian. Aos 37 anos, o meia assinou contrato com o Tricolor até dezembro de 2026, com opção de renovação por mais um ano.",
@@ -44,7 +44,7 @@ const noticias = [
     {
     tag: "Copa do Mundo",
     cat: "copa",
-    emoji: "📢",
+    imagem: "images/antonny.png",
     titulo: "Jornal espanhol detona Antony e vê brasileiro fora da Copa do Mundo: 'Dá razão a Ancelotti'",
     resumo:
       "O jornal espanhol As detonou Antony por sua seca de gols no Betis. O atacante não marca há quatro jogos e passou novamente em branco no empate em 0 a 0 com o Espanyol, no último sábado, por LALIGA. Para o veículo, o brasileiro não está fazendo por onde para ser convocado pela seleção para disputar a Copa do Mundo de 2026",
@@ -55,7 +55,7 @@ const noticias = [
   {
     tag: "Libertadores",
     cat: "brasil",
-    emoji: "🦊",
+    imagem: "images/mpkj.png",
     titulo: "Matheus Pereira marca, e Cruzeiro estreia com vitória na Libertadores",
     resumo:
       "Mesmo fora de casa, o Cruzeiro estreou com vitória na Libertadores. A equipe comandada por Artur Jorge bateu o Barcelona-EQU, em Guayaquil, por 1 a 0. O único gol da partida foi anotado pelo meio-campista Matheus Pereira.",
@@ -66,7 +66,7 @@ const noticias = [
       {
     tag: "Champions League",
     cat: "champions",
-    emoji: "👀",
+    imagem: "images/mbappe.png",
     titulo: "Bayern 'cala' Bernabéu duas vezes, mas Mbappé marca no fim e mantém Real Madrid 'vivo' mesmo após derrota na Championss",
     resumo:
       "O Bayern de Munique largou na frente nas quartas de final da Champions League. Nesta terça-feira (7), em pleno Santiago Bernabéu, os Bávaros visitaram o Real Madrid pelo jogo de ida e venceram por 2 a 1, construindo vantagem para a volta, na Alemanha.",
@@ -77,7 +77,7 @@ const noticias = [
   {
     tag: "Champions League",
     cat: "champions",
-    emoji: "🏆",
+    imagem: "images/doue.png",
     titulo: "PSG domina Liverpool, abre 2 a 0 e fica perto da semifinal da Champions League",
     resumo:
       "O PSG largou na frente por uma vaga na semifinal da Champions League. Com uma grande atuação no Parc des Princes, o time francês venceu o Liverpool por 2 a 0 nesta quarta-feira (8), pelo jogo de ida das quartas, e abriu vantagem importante no confronto.",
@@ -88,7 +88,7 @@ const noticias = [
     {
     tag: "Champions League",
     cat: "champions",
-    emoji: "👑",
+    imagem: "images/vinijr.png",
     titulo: "Ex-Real Madrid detona Vinicius Jr., diz sentir 'pena' do brasileiro e revela o que o 'irrita muito' no atacante: 'É horrível'",
     resumo:
       "Com passagem pelo Real Madrid entre 2008 e 2010, Rafael Van der Vaart, hoje comentarista do canal de televisão Ziggo Sports, da Holanda, detonou a exibição e o comportamento de Vinicius Jr. na derrota merengue por 2 a 1, em pleno Santiago Bernabéu, para o Bayern de Munique, no confronto de ida das quartas de final da Uefa Champions League.",
@@ -99,50 +99,17 @@ const noticias = [
   {
     tag: "Champions League",
     cat: "champions",
-    emoji: "⚽",
+    imagem: "images/barca.png",
     titulo: "Jornais dizem que Barcelona precisa de 'milagre' na Champions e criticam pênalti não marcado: 'Um escândalo'",
     resumo:"O Barcelona precisa de um milagre para continuar em busca do título da Uefa Champions League depois de ter sido prejudicado pela arbitragem contra o Atlético de Madrid no jogo de ida das quartas de final. Essa é a opinião dos jornais espanhóis.",
     fonte: "ESPN",
     url: "https://www.espn.com.br/futebol/champions-league/artigo/_/id/16548527/barcelona-jornais-dizem-clube-precisa-milagre-champions-league-criticam-penalti-nao-marcado",
     data: "08/04/2026",
   },
-  {
-    tag: "Libertadores",
-    cat: "brasil",
-    emoji: "🎯",
-    titulo: "Flamengo vence o Cusco e estreia com pé direito na Libertadores 2026",
-    resumo:
-      "O Flamengo abriu sua campanha na Copa Libertadores com vitória convincente diante do Cusco FC, jogando fora de casa. A partida foi transmitida pela TV Globo para todo o Brasil.",
-    fonte: "Olhar Digital",
-    url: "https://olhardigital.com.br/",
-    data: "08/04/2026",
-  },
-  {
-    tag: "Libertadores",
-    cat: "brasil",
-    emoji: "🌿",
-    titulo: "Palmeiras bate Junior Barranquilla na estreia da Libertadores",
-    resumo:
-      "O Verdão também estreou com vitória na fase de grupos da Libertadores. Junior Barranquilla x Palmeiras foi exibido pela Globo para São Paulo, Paraná e Rio Grande do Sul.",
-    fonte: "Olhar Digital",
-    url: "https://olhardigital.com.br/",
-    data: "08/04/2026",
-  },
-  {
-    tag: "Europa League",
-    cat: "champions",
-    emoji: "🔴",
-    titulo: "Porto enfrenta Nottingham Forest pelas quartas da Europa League",
-    resumo:
-      "As quartas de final da Europa League movimentam o futebol europeu nesta semana, com destaque para Porto x Nottingham Forest e Crystal Palace x Fiorentina, transmitidos pela CazéTV.",
-    fonte: "Lance!",
-    url: "https://www.lance.com.br/",
-    data: "09/04/2026",
-  },
     {
     tag: "Copa do Mundo",
     cat: "copa",
-    emoji: "🚧",
+    imagem: "images/arbcopa.png",
     titulo: "Copa do Mundo terá nove representantes da arbitragem do Brasil; veja nomes",
     resumo:
       "A Fifa divulgou, nesta quinta-feira (9), que o Brasil terá nove representantes no quadro de arbitragem Copa do Mundo de 2026. Na arbitragem, Raphael Claus (SP), Ramon Abatti Abel (SC) e Wilton Pereira Sampaio (GO) foram os escolhidos.",
@@ -151,19 +118,9 @@ const noticias = [
     data: "09/04/2026",
   },
   {
-    tag: "La Liga",
-    emoji: "😮",
-    titulo: "Real Madrid empata com Girona e segue em má fase na La Liga",
-    resumo:
-      "O time merengue não conseguiu superar o Girona no Santiago Bernabéu e segue sem embalar no campeonato espanhol, levantando dúvidas sobre o desempenho da equipe para o fim da temporada.",
-    fonte: "Lance!",
-    url: "https://www.lance.com.br/",
-    data: "10/04/2026",
-  },
-  {
     tag: "Sul-Americana",
     cat: "brasil",
-    emoji: "⭐",
+    imagem: "images/sula.png",
     titulo: "Botafogo e Bragantino estreiam pela Copa Sul-Americana 2026",
     resumo:
       "A competição, que vai até novembro, tem sete brasileiros: São Paulo, Grêmio, RB Bragantino, Atlético-MG, Santos, Vasco e Botafogo. As partidas são transmitidas pelo SBT, ESPN e Disney+.",
@@ -172,20 +129,9 @@ const noticias = [
     data: "10/04/2026",
   },
   {
-    tag: "Transferências",
-    cat: "transferencias",
-    emoji: "✍️",
-    titulo: "Cincinnati sonda Neymar para reforçar o time na MLS",
-    resumo:
-      "Segundo a ESPN, o FC Cincinnati está analisando a possibilidade de contratar Neymar para reforçar o elenco na temporada da Major League Soccer, o que seria mais uma passagem do craque pelo futebol americano.",
-    fonte: "ESPN",
-    url: "https://www.espn.com/soccer/",
-    data: "10/04/2026",
-  },
-  {
     tag: "Copa do Mundo",
     cat: "copa",
-    emoji: "🌍",
+    imagem: "images/incopa.png",
     titulo: "FIFA anuncia novos ingressos para a Copa do Mundo 2026 com valores mais altos",
     resumo:
       "A entidade máxima do futebol adicionou novas categorias de ingressos para o Mundial de 2026, sediado nos Estados Unidos, Canadá e México, com preços acima das faixas anteriormente anunciadas.",
@@ -196,7 +142,7 @@ const noticias = [
     {
     tag: "Copa do Mundo",
     cat: "copa",
-    emoji: "🇦🇷",
+    imagem: "images/messi.png",
     titulo: "Argentina repete estratégia questionada em últimos amistosos pré-Copa do Mundo",
     resumo:
       "A Argentina definiu os dois últimos amistosos que disputará antes do início da Copa do Mundo. Os jogos serão contra Honduras e Islândia, respectivas 66ª e 75ª colocadas do ranking da Fifa. Dessa forma, a atual campeã do mundo repete a estratégia de enfrentar seleções de menor expressão e que não estão classificadas para o Mundial, como nas partidas contra Zâmbia e Mauritânia da última Data Fifa.",
@@ -207,7 +153,7 @@ const noticias = [
     {
     tag: "Copa do Mundo",
     cat: "copa",
-    emoji: "🇧🇷",
+    imagem: "images/roney.png",
     titulo: "Romário diz se levaria Neymar para Copa do Mundo e faz alerta sobre Seleção: 'Entrou em declínio'",
     resumo:
       "O ex-atacante acredita que o camisa 10 do Santos só merece ser convocado por Carlo Ancelotti se tiver em forma. No entanto, há uma ressalva: a equipe não pode depender exclusivamente dele.",
@@ -218,7 +164,7 @@ const noticias = [
   {
     tag: "Brasileirão",
     cat: "brasil",
-    emoji: "🏟️",
+    imagem: "images/allianz.png",
     titulo: "Allianz rescinde contrato de naming rights com a arena do Palmeiras",
     resumo:
       "A Allianz anunciou nesta sexta-feira que rescindiu o contrato dos naming rights do estádio do Palmeiras. Chamado de Allianz Parque desde 2014, o local deve ter o Nubank como substituto.",
@@ -229,7 +175,7 @@ const noticias = [
    {
     tag: "Libertadores",
     cat: "brasil",
-    emoji: "⚪",
+    imagem: "images/coletivafd.png",
     titulo: "Diniz diz que torcida do Corinthians tem que acreditar no sonho da Libertadores e projeta dérbi: 'Como uma final'",
     resumo: "Com a vitória na estreia do Corinthians na CONMEBOL Libertadores, Fernando Diniz falou sobre o seu primeiro jogo à frente da equipe paulista. E explicou a 'obsessão' para o clube conquistar a América de novo.",
     fonte: "ESPN",
@@ -239,7 +185,7 @@ const noticias = [
     {
     tag: "Copa do Mundo",
     cat: "copa",
-    emoji: "🇧🇷",
+    imagem: "images/wps.png",
     titulo: "Wilton Sampaio vai para a 3ª Copa do Mundo e sonha em apitar a final: 'Cereja do bolo'",
     resumo:
       "Uma vez é bom, duas é ótimo e três é... melhor ainda! Wilton Sampaio (Fifa/GO) está confirmado na Copa do Mundo deste ano, nos Estados Unidos, México e Canadá, e não vê a hora de trabalhar em seu terceiro Mundial.",
@@ -250,7 +196,7 @@ const noticias = [
   {
     tag: "Copa do Mundo",
     cat: "copa",
-    emoji: "📖",
+    imagem: "images/album.png",
     titulo: "Quando começa a vender o álbum da Copa? Guia completo 2026 com preços",
     resumo:
       "O álbum de figurinhas da Copa do Mundo da FIFA 2026 estará disponível a partir de 1º de maio para o público. A maior competição de futebol do planeta começa oficialmente no dia 11 de junho e acontecerá em três países: México, Canadá e Estados Unidos. Dessa forma, o álbum oficial do mundial terá 980 cromos, com 68 figurinhas especiais, além de contemplar as 48 seleções que estarão presentes no torneio deste ano. Para te ajudar a tirar as dúvidas relacionadas ao assunto, o TechTudo preparou um guia completo sobre o álbum da Copa do Mundo 2026. Confira.",
@@ -259,9 +205,9 @@ const noticias = [
     data: "10/04/2026",
   },
   {
-    tag: "Brasileirão",
+    tag: "Brasil",
     cat: "brasil",
-    emoji: "💛",
+    imagem: "images/brasil17.png",
     titulo: "Riquelme faz dois, Brasil vence a Argentina no Sul-Americano Sub-17 e se classifica para a Copa",
     resumo:
       "A Seleção Brasileira Sub-17 venceu a Argentina por 3 a 0, com dois gols de Riquelme e um de Eduardo Conceição, na noite desta sexta-feira (10), no Estádio Ameliano Villeta, pela trceira rodada do Grupo B do Campeonato Sul-Americano da categoria, realizado no Paraguai.",
@@ -284,29 +230,43 @@ function filtrar(cat, btn) {
 
 function renderizar() {
   const container = document.getElementById("articles");
+  const banner = document.querySelector(".fn-banner");
+  if (filtroAtual === "todos"){
+    banner.style.display = "block";
+  }else{
+    banner.style.display = "none";
+  }
+
   const lista =
     filtroAtual === "todos"
       ? noticias
       : noticias.filter((n) => n.cat === filtroAtual);
 
   container.innerHTML = lista
-    .map(
-      (n) => `
-    <article class="fn-card">
-      <div class="fn-thumb">${n.emoji}</div>
-      <div class="fn-content">
-        <span class="fn-tag">${n.tag}</span>
-        <h2>${n.titulo}</h2>
-        <p>${n.resumo}</p>
-        <div class="fn-meta">
-          ${n.data} &nbsp;·&nbsp;
-          <a href="${n.url}" target="_blank">Leia mais em ${n.fonte} ↗</a>
-        </div>
-      </div>
-    </article>
-  `
-    )
+    .map((n) => {
+      const thumb = n.imagem
+        ? `<img src="${n.imagem}" alt="${n.tag}">`
+        : `<span class="fn-thumb-fallback">${n.emoji || "📰"}</span>`;
+
+      return `
+        <article class="fn-card">
+          <div class="fn-thumb">
+            ${thumb}
+          </div>
+          <div class="fn-content">
+            <span class="fn-tag">${n.tag}</span>
+            <h2>${n.titulo}</h2>
+            <p>${n.resumo}</p>
+            <div class="fn-meta">
+              ${n.data} &nbsp;·&nbsp;
+              <a href="${n.url}" target="_blank" rel="noopener noreferrer">
+                Leia mais em ${n.fonte} ↗
+              </a>
+            </div>
+          </div>
+        </article>
+      `;
+    })
     .join("");
 }
-
 renderizar();
